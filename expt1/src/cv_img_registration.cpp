@@ -9,6 +9,7 @@
 #include "cv_img_registration.h"
 
 #include <iostream>
+#include <fstream>
 #include <string>
 #include <vector>
 
@@ -101,8 +102,9 @@ int main(const int argc, const char **argv) {
 
 void disp_info() {
   std::cout << "Please input the proper param!\n";
-  std::cout << "  eg1. $ ./cv_img_registration FILE1 FILE2\n";
-  std::cout << "  eg2. $ ./cv_img_registration < ../input\n";
+  std::cout << "  eg1. $ ./expt1_cv_img_registration FILE1 FILE2\n";
+  std::cout << "  eg2. $ ./expt1_cv_img_registration < INPUT_FILE\n";
+  std::cout << "  eg3. $ ./expt1_cv_img_registration\n";
 }
 
 void parse_param(const int argc, const char **argv,

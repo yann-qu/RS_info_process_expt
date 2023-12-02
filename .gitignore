@@ -27,3 +27,6 @@ _deps
 ### Clangd
 .cache/
 
+### Python
+__pycache__/
+
