@@ -7,7 +7,7 @@
 ├── CMakeLists.txt
 ├── README.md
 ├── build
-├── expt1
-├── expt2
+├── expt1  // 遥感图像配准
+├── expt2  // 遥感图像增强与PCA变换
 └── expt3
 ```
